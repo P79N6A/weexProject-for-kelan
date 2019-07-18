@@ -1,0 +1,22 @@
+{
+  "data": {
+        "mineList": [{
+                "propertyNum": "2",
+                "propertyName": "银行卡"   
+            },
+            {
+                "propertyNum": "0",
+                "propertyName": "代办"
+            },
+            {
+                "propertyNum": "0",
+                "propertyName": "积分"
+            }
+        ],
+        "mpMineBgImgUrl":"./imgs/bgImg@2x.png",
+        "bgUrl":"./imgs/person@2x.png",
+        "btnRightUrl":"imgs/arrow-right@2x.png",
+        "loginTxt":"请登录",
+        "decTxt":"1837485732"
+    }
+}

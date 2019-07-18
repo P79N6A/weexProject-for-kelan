@@ -1,0 +1,54 @@
+{
+    "$schema": "img_menu_schema.json",
+    "data": {
+        "menuList": [{
+                "url": "main.pmtransferInOrOut",
+                "src": "imgs/tab_home/menu/zzhk.png",
+                "name": "转账汇款"
+            },
+            {
+                "url": "main.pmtransfer",
+                "src": "imgs/tab_home/menu/zhgl.png",
+                "name": "账户管理"
+            },
+            {
+                "url": "main.utilSpectacle?type=ALERT",
+                "src": "imgs/tab_home/menu/cktz.png",
+                "name": "通知存款"
+            },
+            {
+                "url": "main.pactTrs",
+                "src": "imgs/tab_home/menu/jymx.png",
+                "name": "交易明细"
+            },
+            {
+                "url": "main.MyLoan",
+                "src": "imgs/tab_home/menu/wddk.png",
+                "name": "我的贷款"
+            },
+            {
+                "url": "main.myFinance",
+                "src": "imgs/tab_home/menu/lccp.png",
+                "name": "理财产品"
+            },
+            {
+                "url": "main.pmobileTransfer",
+                "src": "imgs/tab_home/menu/gwk.png",
+                "name": "公务卡"
+            },
+            {
+                "url": "main.login",
+                "src": "imgs/tab_home/menu/qbgn.png",
+                "name": "全部功能"
+            }
+        ],
+        "menuItem": {
+            "bgImg":"",
+            "columns": 4,
+            "imgWidth": 52,
+            "imgHeight": 52,
+            "fontSize": 24,
+            "fontColor": "#404561"
+        }
+    }
+}

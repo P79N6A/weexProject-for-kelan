@@ -1,0 +1,51 @@
+{
+    "$schema": "ad_schema.json",
+    "data": [{
+            "name": "1",
+            "src": "imgs/banner.png",
+            "url": "http://www.csii.com.cn",
+            "mark":"第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项第1项"
+        },
+        {
+            "name": "2",
+            "src": "imgs/banner@3x.png",
+            "url": "http://www.csii.com.cn",
+            "mark":"第2项"
+        },{
+            "name": "3",
+            "src": "imgs/banner.png",
+            "url": "http://www.csii.com.cn",
+            "mark":"第3项"
+        },
+        {
+            "name": "4",
+            "src": "imgs/banner@3x.png",
+            "url": "http://www.csii.com.cn",
+            "mark":"第4项"
+        },
+        {
+            "name": "5",
+            "src": "imgs/banner@3x.png",
+            "url": "http://www.csii.com.cn",
+            "mark":"第5项"
+        },
+        {
+            "name": "6",
+            "src": "imgs/banner@3x.png",
+            "url": "http://www.csii.com.cn",
+            "mark":"第6项"
+        },
+        {
+            "name": "7",
+            "src": "imgs/banner.png",
+            "url": "http://www.csii.com.cn",
+            "mark":"第7项"
+        },
+        {
+            "name": "8",
+            "src": "imgs/banner.png",
+            "url": "http://www.csii.com.cn",
+            "mark":"第8项"
+        }
+    ]
+}

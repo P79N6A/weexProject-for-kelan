@@ -1,0 +1,30 @@
+{
+    "$schema": "ad_schema.json",
+    "data": {
+    	"menuList":[
+    		{
+    			"name":"缴燃气费",
+    			"src":"./imgs/tab_life/topUp/jrqf.png",
+    			"url":"",
+    			"context":"可享受9.8折优惠"
+    		},
+    		{
+    			"name":"交通罚款",
+    			"src":"./imgs/tab_life/topUp/jtfk.png",
+    			"url":"",
+    			"context":"可享受9.8折优惠"
+    		},
+    		{
+    			"name":"缴电费",
+    			"src":"./imgs/tab_life/topUp/jdf.png",
+    			"url":"",
+    			"context":"可享受9.8折优惠"
+    		}
+    	],
+         "menuItem": {
+            "columns": 3,
+            "imgWidth": 52,
+            "imgHeight": 52
+        }
+    }
+}

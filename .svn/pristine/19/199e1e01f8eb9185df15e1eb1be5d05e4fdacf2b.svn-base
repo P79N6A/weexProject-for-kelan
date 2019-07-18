@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      "madp-ui@1.0.49",
+      "E:\\贵阳农商银行\\weexProject"
+    ]
+  ],
+  "_from": "madp-ui@1.0.49",
+  "_id": "madp-ui@1.0.49",
+  "_inBundle": false,
+  "_integrity": "sha512-HKAMaGT+yLkpWa5s4Hg1tlAyT+ec+sekaaS4xke/CP0uEwNBQ1fnXU62V08Zto0hdSUlqCrmj1uLCX+oKa8YJA==",
+  "_location": "/madp-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "madp-ui@1.0.49",
+    "name": "madp-ui",
+    "escapedName": "madp-ui",
+    "rawSpec": "1.0.49",
+    "saveSpec": null,
+    "fetchSpec": "1.0.49"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://npm.madp.tech/madp-ui/-/madp-ui-1.0.49.tgz",
+  "_spec": "1.0.49",
+  "_where": "E:\\贵阳农商银行\\weexProject",
+  "author": {
+    "name": "penghaochen"
+  },
+  "dependencies": {
+    "minami": "^1.2.3",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0",
+    "weex-marquee": "^1.1.2",
+    "weex-vue-render": "^1.0.19"
+  },
+  "description": "madp2.0 App",
+  "devDependencies": {
+    "anywhere": "^1.5.0",
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-component": "^1.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "css-loader": "^0.28.11",
+    "glob": "^7.1.2",
+    "jsdoc": "^3.5.5",
+    "postcss-plugin-px2rem": "^0.7.0",
+    "postcss-plugin-weex": "^0.1.6",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "weex-loader": "^0.7.2",
+    "weex-vue-precompiler": "^0.1.17"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "keywords": [
+    "weex",
+    "vue",
+    "android",
+    "ios"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "madp-ui",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch",
+    "doc": "jsdoc -c ./conf.js -r",
+    "serve": "webpack-dev-server",
+    "serve:web": "anywhere -d ./ -p 8888",
+    "start": "npm run build &&(npm run serve & npm run watch)",
+    "watch": "webpack --watch"
+  },
+  "version": "1.0.49"
+}

@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>单元格组件 - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-loading%25E7%25BB%2584%25E4%25BB%25B6.html">loading组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-tab%25E7%25BB%2584%25E4%25BB%25B6.html">tab组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E4%25B8%25BB%25E8%258F%259C%25E5%258D%2595%25E7%25BB%2584%25E4%25BB%25B6.html">主菜单组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html">单元格组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html">头部组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25AF%25B9%25E8%25AF%259D%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html">对话框组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25B9%25BF%25E5%2591%258A%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B6.html">广告模板组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25BA%2595%25E9%2583%25A8%25E5%25AF%25BC%25E8%2588%25AA%25E7%25BB%2584%25E4%25BB%25B6.html">底部导航组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25BC%25B9%25E5%2587%25BA%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html">弹出框组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E6%258C%2589%25E9%2592%25AE%25E7%25BB%2584%25E4%25BB%25B6.html">按钮组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E7%2590%2586%25E8%25B4%25A2%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B61%255B%25E5%25BE%2585%25E8%25AE%25A8%25E8%25AE%25BA%255D.html">理财模板组件1[待讨论]</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%2525E7%252590%252586%2525E8%2525B4%2525A2%2525E6%2525A8%2525A1%2525E6%25259D%2525BF%2525E7%2525BB%252584%2525E4%2525BB%2525B6%25255B%2525E5%2525BE%252585%2525E8%2525AE%2525A8%2525E8%2525AE%2525BA%25255D.html">理财模板组件[待讨论]</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%2592%2599%25E7%2589%2588%25E7%25BB%2584%25E4%25BB%25B6.html">蒙版组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25B7%2591%25E9%25A9%25AC%25E7%2581%25AF%25E7%25BB%2584%25E4%25BB%25B6.html">跑马灯组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html">轮播组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25BE%2593%25E5%2585%25A5%25E7%25BB%2584%25E4%25BB%25B6.html">输入组件</a></span></li><li class="nav-heading">Events</li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25B9%25BF%25E5%2591%258A%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B6.html#~event:getItemClick">getItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpBarLeftBtnClick">mpBarLeftBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpBarRightBtnClick">mpBarRightBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E6%258C%2589%25E9%2592%25AE%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpButtonClick">mpButtonClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellBtnClick">mpCellBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellClick">mpCellClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellLeftClick">mpCellLeftClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellRightClick">mpCellRightClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25BA%2595%25E9%2583%25A8%25E5%25AF%25BC%25E8%2588%25AA%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpFooterClick">mpFooterClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BE%2593%25E5%2585%25A5%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpInputChange">mpInputChange</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25B7%2591%25E9%25A9%25AC%25E7%2581%25AF%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpLampItemClick">mpLampItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E4%25B8%25BB%25E8%258F%259C%25E5%258D%2595%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpMenuItemClick">mpMenuItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25BC%25B9%25E5%2587%25BA%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpPopupClick">mpPopupClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%2592%2599%25E7%2589%2588%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpShadowClick">mpShadowClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderClick">mpSliderClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderInnerClick">mpSliderInnerClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderPageChanged">mpSliderPageChanged</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-tab%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpTabClick">mpTabClick</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">单元格组件</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        
+            
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description">单元格组件</div>
+        
+
+        
+            
+<div class="section-method">
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="mp-cell_index.vue.html">mp-cell/index.vue</a>, <a href="mp-cell_index.vue.html#line2">line 2</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="section-examples">
+<h5>Example</h5>
+
+    <pre class="prettyprint"><code>&lt;mp-cell >&lt;/mp-cell>例子如下:&lt;mp-cell leftTxt="标题" hasTopBorder="1" hasBottomBorder="1">&lt;/mp-cell>slot插槽left:编辑左侧内容right:编辑中间内容btn:编辑右侧内容</code></pre>
+
+</div>
+
+</div>
+        
+    
+    </div>
+
+    
+
+    
+
+    
+
+     
+
+    
+
+    
+        <h3 class="subsection-title">Members</h3>
+
+        
+            
+<div class="section-members">
+<h4 class="name" id=".props"><span class="type-signature">(static) </span>props<span class="type-signature"></span></h4>
+
+
+
+
+<div class="description">
+    Props 组件接收属性
+</div>
+
+
+
+
+
+    <h5 class="subsection-title">Properties:</h5>
+
+    
+
+<table class="props">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>cellStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格整体样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>leftIcon</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>String</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">左侧图标 leftIcon='null'会空出图标的位置</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>leftStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格左部整体样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>leftTitleStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格左部文字样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>leftIconStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格左侧图片样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>rightStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格标题部整体样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>titleStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格标题文字样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>btnStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格右部整体样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>btnTxtStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格右侧文字样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>btnIconStyle</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>Object</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">单元格右侧图片样式</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>arrowIcon</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>String</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">右侧图标 arrowIcon='null'会空出图标的位置</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>leftTxt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>String</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">左侧标题内容</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>title</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>String</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">标题文字内容</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>btnTxt</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>String</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">右侧按钮文字内容</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>hasTopBorder</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>String</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">是否有顶部边框 默认空字符串是无边框</td>
+        </tr>
+
+        
+
+    
+
+        <tr>
+            
+                <td class="name"><code>hasBottomBorder</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type"><code>String</code></span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">是否有底部边框 默认空字符串是无边框</td>
+        </tr>
+
+        
+
+    
+    </tbody>
+</table>
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="mp-cell_index.vue.html">mp-cell/index.vue</a>, <a href="mp-cell_index.vue.html#line43">line 43</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+</div>
+
+        
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Events</h3>
+
+        
+            
+<div class="section-method">
+
+    
+
+    <h4 class="name" id="~event:mpCellBtnClick">mpCellBtnClick</h4>
+
+    
+
+
+
+<div class="description">
+    点击最右侧触发事件
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="mp-cell_index.vue.html">mp-cell/index.vue</a>, <a href="mp-cell_index.vue.html#line137">line 137</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+        
+            
+<div class="section-method">
+
+    
+
+    <h4 class="name" id="~event:mpCellClick">mpCellClick</h4>
+
+    
+
+
+
+<div class="description">
+    点击单元格触发事件
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="mp-cell_index.vue.html">mp-cell/index.vue</a>, <a href="mp-cell_index.vue.html#line114">line 114</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+        
+            
+<div class="section-method">
+
+    
+
+    <h4 class="name" id="~event:mpCellLeftClick">mpCellLeftClick</h4>
+
+    
+
+
+
+<div class="description">
+    点击左侧部分触发事件
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="mp-cell_index.vue.html">mp-cell/index.vue</a>, <a href="mp-cell_index.vue.html#line121">line 121</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+        
+            
+<div class="section-method">
+
+    
+
+    <h4 class="name" id="~event:mpCellRightClick">mpCellRightClick</h4>
+
+    
+
+
+
+<div class="description">
+    点击中间部分触发事件
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="mp-cell_index.vue.html">mp-cell/index.vue</a>, <a href="mp-cell_index.vue.html#line129">line 129</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+        
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Fri Jan 04 2019 10:18:45 GMT+0800 (中国标准时间) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

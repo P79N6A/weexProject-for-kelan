@@ -1,0 +1,26 @@
+{
+    "$schema": "hot_finance_schema.json",
+    "data": {
+        "details": {
+            "title": "更多",
+            "url": "main.plnv"
+        },
+        "financeList": [{
+                "name": "芝米天添赢",
+                "rate": 4.88,
+                "isHot":"true",
+                "tese1":"不约定存期",
+            	"tese2":"存期灵活",
+            	"url":""
+            },
+            {
+                "name": "月月红",
+                "rate": 3.60,
+                "isHot":"false",
+                "tese1":"不约定存期",
+            	"tese2":"存期灵活",
+            	"url" : "main.homeYYH"
+            }
+        ]
+    }
+}

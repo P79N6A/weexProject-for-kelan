@@ -1,0 +1,25 @@
+{
+    "$schema": "layout_schema.json",
+    "data": [{
+        "type": "MONEY",
+        "url": "",
+        "name": "资产"
+    }, {
+        "type": "MENU",
+        "url": "json/tab_finance/menu.json",
+        "name": "菜单"
+    }, {
+        "type": "AD",
+        "url": "json/tab_finance/ad.json",
+        "name": "单图广告"
+    },{
+        "type": "INTELL",
+        "url": "json/tab_finance/finRecommend.json",
+        "name": "智能推荐"
+    },{
+        "type": "FINANCE",
+        "url": "json/tab_finance/financeList.json",
+        "name": "理财列表"
+    }
+    ]
+}

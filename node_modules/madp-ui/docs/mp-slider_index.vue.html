@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>mp-slider/index.vue - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-loading%25E7%25BB%2584%25E4%25BB%25B6.html">loading组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-tab%25E7%25BB%2584%25E4%25BB%25B6.html">tab组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E4%25B8%25BB%25E8%258F%259C%25E5%258D%2595%25E7%25BB%2584%25E4%25BB%25B6.html">主菜单组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html">单元格组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html">头部组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25AF%25B9%25E8%25AF%259D%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html">对话框组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25B9%25BF%25E5%2591%258A%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B6.html">广告模板组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25BA%2595%25E9%2583%25A8%25E5%25AF%25BC%25E8%2588%25AA%25E7%25BB%2584%25E4%25BB%25B6.html">底部导航组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25BC%25B9%25E5%2587%25BA%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html">弹出框组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E6%258C%2589%25E9%2592%25AE%25E7%25BB%2584%25E4%25BB%25B6.html">按钮组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E7%2590%2586%25E8%25B4%25A2%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B61%255B%25E5%25BE%2585%25E8%25AE%25A8%25E8%25AE%25BA%255D.html">理财模板组件1[待讨论]</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%2525E7%252590%252586%2525E8%2525B4%2525A2%2525E6%2525A8%2525A1%2525E6%25259D%2525BF%2525E7%2525BB%252584%2525E4%2525BB%2525B6%25255B%2525E5%2525BE%252585%2525E8%2525AE%2525A8%2525E8%2525AE%2525BA%25255D.html">理财模板组件[待讨论]</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%2592%2599%25E7%2589%2588%25E7%25BB%2584%25E4%25BB%25B6.html">蒙版组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25B7%2591%25E9%25A9%25AC%25E7%2581%25AF%25E7%25BB%2584%25E4%25BB%25B6.html">跑马灯组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html">轮播组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25BE%2593%25E5%2585%25A5%25E7%25BB%2584%25E4%25BB%25B6.html">输入组件</a></span></li><li class="nav-heading">Events</li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25B9%25BF%25E5%2591%258A%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B6.html#~event:getItemClick">getItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpBarLeftBtnClick">mpBarLeftBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpBarRightBtnClick">mpBarRightBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E6%258C%2589%25E9%2592%25AE%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpButtonClick">mpButtonClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellBtnClick">mpCellBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellClick">mpCellClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellLeftClick">mpCellLeftClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellRightClick">mpCellRightClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25BA%2595%25E9%2583%25A8%25E5%25AF%25BC%25E8%2588%25AA%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpFooterClick">mpFooterClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BE%2593%25E5%2585%25A5%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpInputChange">mpInputChange</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25B7%2591%25E9%25A9%25AC%25E7%2581%25AF%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpLampItemClick">mpLampItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E4%25B8%25BB%25E8%258F%259C%25E5%258D%2595%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpMenuItemClick">mpMenuItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25BC%25B9%25E5%2587%25BA%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpPopupClick">mpPopupClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%2592%2599%25E7%2589%2588%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpShadowClick">mpShadowClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderClick">mpSliderClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderInnerClick">mpSliderInnerClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderPageChanged">mpSliderPageChanged</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-tab%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpTabClick">mpTabClick</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">mp-slider/index.vue</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>&lt;template>
+
+  &lt;slider :class="[sliderType=='full'&amp;&amp;'slider',sliderType=='half'&amp;&amp;'sliderB',sliderType=='four'&amp;&amp;'sliderS',hasImgTxt&amp;&amp;`slider-${sliderType}`]" :jsonUrl="jsonUrl" :style="sliderStyle" :interval="interval" :index="defaultIndex" :auto-play="autoPlay" :infinite="infinite" @change="mpSliderPageChanged" @click="mpSliderClick">
+    &lt;slot>
+      &lt;div class="slider-box" v-for="(item,index) in ad_list" :key="index" v-if="sliderType=='full'">
+        &lt;div :class="[hasImgTxt&amp;&amp;`slider-item-${sliderType}`]">
+          &lt;image class="slider-img" :class="[hasImgTxt&amp;&amp;`slider-img-${sliderType}`]" :style="sliderImgStyle" :src="item.src" />
+          &lt;text :class="[`slider-txt-${sliderType}`]" v-if="hasImgTxt">{{item.mark}}&lt;/text>
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="slider-box" v-for="(item,index) in ad_list" :key="index" v-if="sliderType=='half'">
+        &lt;div :class="[hasImgTxt&amp;&amp;`slider-item-${sliderType}`]" v-for="(arr,i) in item" :key="i" v-if="!hasImgTxt" @click="mpSliderInnerClick(arr,i)">
+          &lt;image :class="['slider-imgB',hasImgTxt&amp;&amp;`slider-imgB-${sliderType}`]" :src="arr.src" :style="sliderImgStyle"/>
+        &lt;/div>
+        &lt;div :class="[hasImgTxt&amp;&amp;`slider-item-${sliderType}`]" v-for="(arr,i) in item" :key="i" v-if="hasImgTxt" @click="mpSliderInnerClick(arr,i)">
+          &lt;image :class="['slider-imgB',hasImgTxt&amp;&amp;`slider-imgB-${sliderType}`]" :src="arr.src" :style="sliderImgStyle"/>
+          &lt;text :class="[`slider-txt-${sliderType}`]">{{arr.mark}}&lt;/text>
+        &lt;/div>
+      &lt;/div>
+      &lt;div class="slider-boxS" v-for="(item,index) in ad_list" :key="index" v-if="sliderType=='four'">
+        &lt;image :class="['slider-imgB',hasImgTxt&amp;&amp;`slider-imgB-${sliderType}`]" :src="arr.src" v-for="(arr,i) in item" :key="i" v-if="!hasImgTxt" @click="mpSliderInnerClick(arr,i)"/>
+        &lt;div :class="[hasImgTxt&amp;&amp;`slider-item-${sliderType}`]" v-for="(arr,i) in item" :key="i" v-if="hasImgTxt" @click="mpSliderInnerClick(arr,i)">
+          &lt;image :class="['slider-imgB',hasImgTxt&amp;&amp;`slider-imgB-${sliderType}`]" :src="arr.src" :style="sliderImgStyle"/>
+          &lt;text :class="[`slider-txt-${sliderType}`]" v-if="hasImgTxt">{{arr.mark}}&lt;/text>
+        &lt;/div>
+      &lt;/div>
+    &lt;/slot>
+    &lt;indicator class="indicator" v-if="hasIndicator">&lt;/indicator>
+  &lt;/slider>
+
+&lt;/template>
+
+&lt;style scoped>
+.slider {
+  width: 750px;
+  height: 320px;
+}
+.sliderB {
+  width: 750px;
+  height: 160px;
+}
+.sliderS {
+  width: 750px;
+  height: 320px;
+}
+.slider-full {
+  height: 400px;
+}
+.slider-half {
+  height: 240px;
+}
+.slider-four {
+  height: 480px;
+}
+.slider-box {
+  flex-direction: row;
+}
+.slider-boxS {
+  width: 750px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.slider-item-full {
+  width: 750px;
+  height: 400px;
+}
+.slider-item-half {
+  width: 375px;
+  height: 240px;
+}
+.slider-item-four {
+  width: 375px;
+  height: 240px;
+}
+.slider-img {
+  width: 750px;
+  height: 320px;
+}
+.slider-imgB {
+  width: 375px;
+  height: 160px;
+}
+.slider-img-full {
+  margin-top: 0;
+}
+.slider-imgB-half {
+  margin-top: 0;
+}
+.slider-imgB-four {
+  width: 375px;
+  height: 160px;
+}
+.indicator {
+  position: absolute;
+  bottom: 20px;
+  width: 750px;
+  height: 44px;
+}
+.slider-txt-full {
+  width: 750px;
+  height: 80px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  lines: 2;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 26px;
+}
+.slider-txt-half {
+  width: 375px;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  lines: 2;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 26px;
+}
+.slider-txt-four {
+  width: 375px;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  lines: 2;
+  text-overflow: ellipsis;
+  text-align: center;
+  font-size: 26px;
+}
+&lt;/style>
+&lt;script>
+/**
+ * @module 轮播组件
+ * @description 轮播图片weex组件
+ * @example  &lt;mp-slider>&lt;/mp-slider>
+ * 例子如下:
+ * &lt;mp-slider @mpSliderPageChanged="mpSliderPageChanged" jsonUrl="json/ad.json">
+   &lt;/mp-slider>
+   &lt;mp-slider @mpSliderPageChanged="mpSliderPageChanged">
+        &lt;div class="slider-box" v-for="(item,index) in imageList" :key="index">
+            &lt;image class="slider-img" :src="item.src" />
+        &lt;/div>
+    &lt;/mp-slider>
+
+slot插槽：
+  轮播的内容
+ * 
+ */
+
+const modal = weex.requireModule("modal");
+const stream = weex.requireModule("stream");
+export default {
+  /**
+   * Props 组件接收属性
+   *
+   * @prop {String} jsonUrl 轮播的json路径(与sliderList不能共同使用),无slot才可使用
+   * @prop {Array} sliderList 轮播的json数据(与jsonUrl不能共同使用),无slot才可使用
+   * @prop {Object} sliderType 轮播类型 full：一张图，half：两张图，four:四张图两行两列,默认full,无slot才可使用
+   * @prop {Array} hasImgTxt 是否显示轮播图片对应文字,默认false,无slot才可使用
+   *
+   * @prop {Object} sliderStyle 轮播整体样式
+   * @prop {Object} sliderImgStyle 轮播图片样式
+   * @prop {String} interval 轮播间隔时间 默认值：5000
+   * @prop {Boolean} autoPlay 轮播是否自动执行 默认值：false
+   * @prop {Boolean} infinite 轮播是否无限循环 默认值：false
+   * @prop {Boolean} hasIndicator 是否显示轮播指示器 默认值：false
+   * @prop {Number} defaultIndex 显示第几页 默认值：0
+   * 
+   */
+  props: {
+    jsonUrl: {
+      type: String,
+      default: ""
+    },
+    sliderList: {
+      type: Array,
+      default: () => []
+    },
+    sliderType: {
+      type: String,
+      default: "full"
+    },
+    hasImgTxt: {
+      type: Boolean,
+      default: false
+    },
+    sliderStyle: {
+      type: Object,
+      default: () => ({})
+    },
+    sliderImgStyle: {
+      type: Object,
+      default: () => ({})
+    },
+    interval: {
+      type: String,
+      default: "5000"
+    },
+    autoPlay: {
+      type: Boolean,
+      default: false
+    },
+    infinite: {
+      type: Boolean,
+      default: false
+    },
+    hasIndicator: {
+      type: Boolean,
+      default: false
+    },
+    defaultIndex: {
+      type: Number,
+      default: 0
+    },
+    
+  },
+  data() {
+    return {
+      adList: [],
+      sliderIndex:0
+    };
+  },
+  computed: {
+    ad_list() {
+      if (this.jsonUrl) {
+        if (this.sliderType == "half") {
+          //一页显示2条
+          return this.reSetAdList(2);
+        } else if (this.sliderType == "four") {
+          //一页显示4条
+          return this.reSetAdList(4);
+        }
+        return this.adList;
+      } else {
+        return this.sliderList;
+      }
+    }
+  },
+  created() {
+    if (this.jsonUrl) {
+      this.getJsonData();
+    }
+  },
+  methods: {
+    /**
+     * @event mpSliderPageChanged
+     * @description 轮播完成一次后执行
+     * @param {Object} event  event.index是当前索引
+     */
+    mpSliderPageChanged(event) {
+      this.sliderIndex=event.index;
+      this.$emit("mpSliderPageChanged", event);
+    },
+    /**
+     * @event mpSliderClick
+     * @description 点击轮播触发事件
+     * @param {Object} item 当前数据
+     * @param {Object} event  当前元素
+     */
+    mpSliderClick(event) {
+      this.$emit("mpSliderClick", this.ad_list[this.sliderIndex],event);
+    },
+    /**
+     * @event mpSliderInnerClick
+     * @description 一个页面有多项时点击某一项触发事件
+     * @param {String} item 当前项数据
+     * @param {String} index 当前索引 从0开始
+     */
+    mpSliderInnerClick(item,index){
+      this.$emit("mpSliderInnerClick", item,index);
+    },
+    //获取轮播json数据
+    getJsonData() {
+      stream.fetch(
+        {
+          method: "GET",
+          url: this.jsonUrl,
+          type: "json"
+        },
+        res => {
+          this.adList = res.data.data;
+        }
+      );
+    },
+    //当一页显示多条数据时，需重新组装每页json数据
+    reSetAdList(index) {
+      let arr = [];
+      let subList = [];
+      for (var i in this.adList) {
+        if (i != 0 &amp;&amp; i % index == 0) {
+          arr.push(subList);
+          subList = [this.adList[i]];
+        } else {
+          subList.push(this.adList[i]);
+        }
+      }
+      if (this.adList.length - 1 == i) {
+        arr.push(subList);
+      }
+      return arr;
+    }
+  },
+  watch: {
+    jsonUrl() {
+      this.getJsonData();
+    }
+  }
+};
+&lt;/script></code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Fri Jan 04 2019 10:18:45 GMT+0800 (中国标准时间) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

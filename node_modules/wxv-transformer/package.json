@@ -1,0 +1,48 @@
+{
+  "_args": [
+    [
+      "wxv-transformer@0.1.3",
+      "E:\\贵阳农商银行\\weexProject"
+    ]
+  ],
+  "_development": true,
+  "_from": "wxv-transformer@0.1.3",
+  "_id": "wxv-transformer@0.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-y/PErSpupx/ffd8l7e/nlbyFEgaFqrjteisk+DT7GF+7Ojo7bPOL0rolv9tJe4NeEuPTX0M8Lnpw9t7qZWCmvw==",
+  "_location": "/wxv-transformer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "wxv-transformer@0.1.3",
+    "name": "wxv-transformer",
+    "escapedName": "wxv-transformer",
+    "rawSpec": "0.1.3",
+    "saveSpec": null,
+    "fetchSpec": "0.1.3"
+  },
+  "_requiredBy": [
+    "/weex-vue-precompiler"
+  ],
+  "_resolved": "https://npm.madp.tech/wxv-transformer/-/wxv-transformer-0.1.3.tgz",
+  "_spec": "0.1.3",
+  "_where": "E:\\贵阳农商银行\\weexProject",
+  "author": {
+    "name": "MrRaindrop"
+  },
+  "description": "transformer for weex vue binding styles.",
+  "keywords": [
+    "weex",
+    "vue",
+    "styleBinding",
+    "transform"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "wxv-transformer",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.3"
+}

@@ -1,0 +1,23 @@
+{
+    "$schema": "ad_schema.json",
+    "data": [
+    	{
+            "name": "",
+            "src": "imgs/tab_finance/ad/ad1.png",
+            "url": "http://www.csii.com.cn"
+        },
+        {
+            "name": "",
+            "src": "imgs/tab_finance/ad/ad1.png",
+            "url": "http://www.csii.com.cn"
+        }, {
+            "name": "",
+            "src": "imgs/tab_finance/ad/ad1.png",
+            "url": "http://www.csii.com.cn"
+        }, {
+            "name": "",
+            "src": "imgs/tab_finance/ad/ad1.png",
+            "url": "http://www.csii.com.cn"
+        }
+    ]
+}

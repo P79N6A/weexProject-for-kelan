@@ -1,0 +1,14 @@
+{
+    "$schema": "ad_schema.json",
+    "data": [{
+            "name": "",
+            "src": "imgs/tab_life/ad/banner1.png",
+            "url": "http://www.csii.com.cn"
+        },
+        {
+            "name": "",
+            "src": "imgs/tab_life/ad/banner2.png",
+            "url": "http://www.csii.com.cn"
+        }
+    ]
+}

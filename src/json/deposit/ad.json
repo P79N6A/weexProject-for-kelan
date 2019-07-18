@@ -1,0 +1,15 @@
+{
+    "$schema": "ad_schema.json",
+    "data": [
+    	{
+            "name": "",
+            "src": "imgs/deposit/ad/ad1.png",
+            "url": ""
+        },
+        {
+            "name": "",
+            "src": "imgs/deposit/ad/ad1.png",
+            "url": ""
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+	"ios": {
+		"appVersionName": "1.0.1",
+		"appVersion": "1.0",
+		"appDesc": "您有新的版本请更新！",
+		"isStrong": "1",
+		"downloadUrl": ""
+	},
+	"android": {
+		"appVersionName": "1.0.1",
+		"appVersion": "1.0",
+		"appDesc": "您有新的版本请更新！",
+		"isStrong": "1",
+		"downloadUrl": "http://172.16.253.56:9089/data/preview/central.dat"
+	}
+}

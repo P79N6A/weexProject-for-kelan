@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>mp-lamp/index.vue - Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <li class="nav-link nav-home-link"><a href="index.html">Home</a></li><li class="nav-heading">Modules</li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-loading%25E7%25BB%2584%25E4%25BB%25B6.html">loading组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-tab%25E7%25BB%2584%25E4%25BB%25B6.html">tab组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E4%25B8%25BB%25E8%258F%259C%25E5%258D%2595%25E7%25BB%2584%25E4%25BB%25B6.html">主菜单组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html">单元格组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html">头部组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25AF%25B9%25E8%25AF%259D%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html">对话框组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25B9%25BF%25E5%2591%258A%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B6.html">广告模板组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25BA%2595%25E9%2583%25A8%25E5%25AF%25BC%25E8%2588%25AA%25E7%25BB%2584%25E4%25BB%25B6.html">底部导航组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E5%25BC%25B9%25E5%2587%25BA%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html">弹出框组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E6%258C%2589%25E9%2592%25AE%25E7%25BB%2584%25E4%25BB%25B6.html">按钮组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E7%2590%2586%25E8%25B4%25A2%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B61%255B%25E5%25BE%2585%25E8%25AE%25A8%25E8%25AE%25BA%255D.html">理财模板组件1[待讨论]</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%2525E7%252590%252586%2525E8%2525B4%2525A2%2525E6%2525A8%2525A1%2525E6%25259D%2525BF%2525E7%2525BB%252584%2525E4%2525BB%2525B6%25255B%2525E5%2525BE%252585%2525E8%2525AE%2525A8%2525E8%2525AE%2525BA%25255D.html">理财模板组件[待讨论]</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%2592%2599%25E7%2589%2588%25E7%25BB%2584%25E4%25BB%25B6.html">蒙版组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25B7%2591%25E9%25A9%25AC%25E7%2581%25AF%25E7%25BB%2584%25E4%25BB%25B6.html">跑马灯组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html">轮播组件</a></span></li><li class="nav-heading"><span class="nav-item-type type-module">M</span><span class="nav-item-name"><a href="module-%25E8%25BE%2593%25E5%2585%25A5%25E7%25BB%2584%25E4%25BB%25B6.html">输入组件</a></span></li><li class="nav-heading">Events</li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25B9%25BF%25E5%2591%258A%25E6%25A8%25A1%25E6%259D%25BF%25E7%25BB%2584%25E4%25BB%25B6.html#~event:getItemClick">getItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpBarLeftBtnClick">mpBarLeftBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25A4%25B4%25E9%2583%25A8%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpBarRightBtnClick">mpBarRightBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E6%258C%2589%25E9%2592%25AE%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpButtonClick">mpButtonClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellBtnClick">mpCellBtnClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellClick">mpCellClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellLeftClick">mpCellLeftClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%258D%2595%25E5%2585%2583%25E6%25A0%25BC%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpCellRightClick">mpCellRightClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25BA%2595%25E9%2583%25A8%25E5%25AF%25BC%25E8%2588%25AA%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpFooterClick">mpFooterClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BE%2593%25E5%2585%25A5%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpInputChange">mpInputChange</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25B7%2591%25E9%25A9%25AC%25E7%2581%25AF%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpLampItemClick">mpLampItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E4%25B8%25BB%25E8%258F%259C%25E5%258D%2595%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpMenuItemClick">mpMenuItemClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E5%25BC%25B9%25E5%2587%25BA%25E6%25A1%2586%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpPopupClick">mpPopupClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%2592%2599%25E7%2589%2588%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpShadowClick">mpShadowClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderClick">mpSliderClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderInnerClick">mpSliderInnerClick</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-%25E8%25BD%25AE%25E6%2592%25AD%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpSliderPageChanged">mpSliderPageChanged</a></span></li><li class="nav-heading"><span class="nav-item-type type-event">E</span><span class="nav-item-name"><a href="module-tab%25E7%25BB%2584%25E4%25BB%25B6.html#~event:mpTabClick">mpTabClick</a></span></li>
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">mp-lamp/index.vue</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>&lt;template>
+  &lt;div class="lamp">
+    &lt;image class="lamp-image" :src="lampImg" :style="lampImgStyle" />
+    &lt;div class="lamp-marquee">
+      &lt;div :class="[type=='row'&amp;&amp;'lamp-marquee-r',type=='cols'&amp;&amp;'lamp-marquee-c']" ref="lamp" :lamp_list="lamp_list">
+        &lt;div v-for="(item,key1) in lampList" :key="key1+'-1'" @click="mpLampItemClick(item)">
+          &lt;text class="lamp-title">{{item.title}}&lt;/text>
+        &lt;/div>
+        &lt;div v-for="(item,key2) in lampList" :key="key2+'-2'" @click="mpLampItemClick(item)">
+          &lt;text class="lamp-title">{{item.title}}&lt;/text>
+        &lt;/div>
+      &lt;/div>
+    &lt;/div>
+  &lt;/div>
+&lt;/template>
+
+&lt;style scoped>
+.lamp {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 80px;
+  line-height: 80px;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+.lamp-image {
+  width: 150px;
+  height: 30px;
+}
+.lamp-marquee {
+  width: 750px;
+  height: 50px;
+  margin-left: 30px;
+  overflow: hidden;
+}
+.lamp-marquee-c {
+  /* height: 300px; */
+  /* position: absolute; */
+  flex-direction: column;
+}
+.lamp-marquee-r{
+  flex-direction: row;
+}
+.lamp-title {
+  width: 750px;
+  height: 50px;
+  line-height: 50px;
+  text-overflow: ellipsis;
+  font-size: 28px;
+  color: #404561;
+}
+&lt;/style>
+
+&lt;script>
+/**
+ * @module 跑马灯组件
+ * @description 跑马灯weex组件
+ * @example  &lt;mp-lamp jsonurl="json/notice.json">&lt;/mp-lamp>   
+ * notice.json数据格式如下:
+ * {
+    "data": [{
+            "title": "手机银行成功上线",
+            "url": "http://www.hxb.com.cn",
+            "key":"手机银行成功上线,shoujiyinhangchenggongshangxian"
+        },
+        {
+            "title": "唐山银行POC正式启动",
+            "url": "http://www.hxb.com.cn",
+            "key":"唐山银行POC正式启动,tangshanyinhangpoczhengshiqidong"
+        }, {
+            "title": "科蓝公司收购某数据库公司",
+            "url": "http://www.hxb.com.cn",
+            "key":"科蓝公司收购某数据库公司,kelangongsishougoumoushujukugongsi"
+        }
+    ]
+}
+ * 
+ */
+const stream = weex.requireModule("stream");
+const context = weex.requireModule("context");
+const animation = weex.requireModule("animation");
+
+export default {
+  /**
+   * Props 接受父组件的传值
+   * @prop {String} jsonurl 跑马灯组件的json文件路径
+   * @prop {String} type 跑马灯类型 row cols 默认是cols
+   * @prop {String} stoping 跑马灯完成一次停顿时间 默认是 3000
+   * @prop {String} duration 跑马灯完成一次需要时间 默认是 1000
+   * @prop {String} lampImg 跑马灯左部图片
+   * @prop {String} lampImgStyle 跑马灯左部图片样式
+   */
+  props: {
+    jsonUrl: {
+      type: String,
+      default: ""
+    },
+    type: {
+      type: String,
+      default: "row"
+    },
+    duration: {
+      type: String,
+      default: "1000"
+    },
+    stoping: {
+      type: String,
+      default: "3000"
+    },
+    lampImg:{
+      type: String,
+      default: "./componentsImg/black@3x.png"
+    },
+    lampImgStyle:{
+      type: Object,
+      default: () => ({})
+    }
+  },
+  data() {
+    return {
+      lampList: [], //跑马灯数据
+      lampLength: null, //跑马灯条数
+      step:0,//当前所在第几条
+      timer: null,
+    };
+  },
+  computed: {
+    lamp_list() {
+      if (this.jsonUrl) {
+        this.getJsonData();
+      }
+      return [];
+    }
+  },
+  methods: {
+    //获取轮播json数据
+    getJsonData(callback) {
+      stream.fetch(
+        {
+          method: "GET",
+          url: this.jsonUrl,
+          type: "json"
+        },
+        res => {
+          this.lampList = res.data.data;
+          this.lampLength = this.lampList.length;
+          this.step=0;
+          this.loading();
+        }
+      );
+    },
+
+    loading() {
+      clearTimeout(this.timer)
+      this.timer = setTimeout(() => {
+        this.step++;
+        this.animateTranstion(this.step);
+        
+      }, this.stoping);
+    },
+    animateTranstion(step,duration=this.duration) {
+      animation.transition(
+        this.$refs["lamp"],
+        {
+          styles: {
+            transform: this.transformStyle(step)
+          },
+          duration: duration,
+          timingFunction: "ease-out",
+          delay: 0
+        },
+        () => {
+          if(this.step==this.lampLength){
+            this.step=0;
+            this.animateTranstion(this.step,0);
+          }
+          this.loading()
+        }
+      );
+    },
+    transformStyle(range) {
+      let style="";
+      if(this.type=="row"){
+        style = "translateX(-" + 750 * range + "px)";
+      }else if(this.type=="cols"){
+        style = "translateY(-" + 50 * range + "px)";
+      }
+      return style;
+    },
+    /**
+     * @event mpLampItemClick
+     * @description 跑马灯点击触发事件
+     * @param {Object} item  item是当前所选列表数据
+     */
+    mpLampItemClick(item){
+      this.$emit("mpLampItemClick", item);
+    }
+  }
+};
+&lt;/script>
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+</div>
+
+<br class="clear">
+
+<footer>
+    Generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Fri Jan 04 2019 10:18:45 GMT+0800 (中国标准时间) using the Minami theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+</body>
+</html>

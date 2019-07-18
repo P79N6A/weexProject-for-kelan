@@ -1,0 +1,82 @@
+{
+    "$schema": "img_menu_schema.json",
+    "data": {
+        "menuList": [{
+                "url": "main.newmain",
+                "src": "imgs/ping@3x.png",
+                "name": "账户管理"
+            },
+            {
+                "url": "main.transferaccouts",
+                "src": "imgs/deposit@3x.png",
+                "name": "转账汇款"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            },
+            {
+                "url": "main.transferaccouts",
+                "src": "imgs/deposit@3x.png",
+                "name": "转账汇款"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            },
+            {
+                "url": "main.transferaccouts",
+                "src": "imgs/deposit@3x.png",
+                "name": "转账汇款"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            },
+            {
+                "url": "main.plnv",
+                "src": "imgs/money@3x.png",
+                "name": "投资理财"
+            }
+        ],
+        "bgImg":"",
+        "rows": 3,
+        "columns": 5,
+        "imgSize": {
+            "imgWidth": 60,
+            "imgHeight": 60
+        },
+        "menuWidth":"150",
+        "menuHeight":"120",
+        "fontSize": 26,
+        "fontColor": "#000"
+    }
+}

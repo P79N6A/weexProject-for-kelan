@@ -1,0 +1,29 @@
+{
+    "$schema": "layout_schema.json",
+    "data": [{
+        "type": "AD",
+        "url": "json/tab_life/ad.json",
+        "name": "广告"
+    },
+    {
+        "type": "MENU",
+        "url": "json/tab_life/menulife.json",
+        "name": "菜单"
+    },
+    {
+        "type": "AD1",
+        "url": "json/tab_life/ad1.json",
+        "name": "广告2"
+    },
+    {
+        "type": "TOPUP",
+        "url": "json/tab_life/phone.json",
+        "name": "手机充值菜单"
+    },
+     {
+        "type": "YOUHUI",
+        "url": "json/tab_life/youhui.json",
+        "name": "优惠活动"
+    }
+   ]
+}

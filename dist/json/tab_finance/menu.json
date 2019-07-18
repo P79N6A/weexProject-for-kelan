@@ -1,0 +1,31 @@
+{
+    "$schema": "menu_schema.json",
+    "data": {
+        "menuList": [{
+            "url": "main.ptimToSav",
+            "src": "imgs/tab_finance/menu/dqzhq.png",
+            "name": "定期转活期"
+        }, {
+            "url": "main.psavToTim",
+            "src": "imgs/tab_finance/menu/hqzdq.png",
+            "name": "活期转定期"
+        }, {
+            "url": "main.PInvestRiskAssessment",
+            "src": "imgs/tab_finance/menu/tzckkl.png",
+            "name": "通知存款开立"
+        }, {
+            "url": "main.PInvTrsQry",
+            "src": "imgs/tab_finance/menu/tzckzq.png",
+            "name": "通知存款支取"
+        }
+        ],
+        "menuItem": {
+            "bgImg":"",
+            "columns": 4,
+            "imgWidth": 52,
+            "imgHeight": 52,
+            "fontSize": 22,
+            "fontColor": "rgba(90,105,118,0.9)"
+        }
+    }
+}

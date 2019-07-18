@@ -1,0 +1,20 @@
+{
+    "$schema": "rich_schema.json",
+    "data": {
+        "mpRichList" :[{
+            "src" : "imgs/arrow-left.png",
+            "treasureTxt" : "总资产（元）",
+            "moneyTxt" : "12313"
+        },
+        {
+            "src" : "imgs/arrow-right.png",
+            "treasureTxt" : "总负债（元）",
+            "moneyTxt" : "121133"
+        }
+    ],
+        "topLeftBtn" : "./imgs/arrow-top.png",
+        "topRightBtn" : "imgs/arrow-gonext.png",
+        "topLeftTxt" : "财富总览",
+        "mpRichBgImgUrl" : ""
+    }
+}
